@@ -1,0 +1,22 @@
+{
+  "name": "pretty-ecommerce-cli",
+  "version": "0.0.2",
+  "description": "Create Next.js & NestJs online store app with external database integration",
+  "main": "index.mjs",
+  "author": "Pavel Ryauzov",
+  "license": "UNLICENSED",
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">= 12.9.0"
+  },
+  "bin": {
+    "pretty-ecommerce-generate": "index.mjs"
+  },
+  "dependencies": {
+    "commander": "^10.0.1",
+    "inquirer": "^9.2.6",
+    "shelljs": "^0.8.5"
+  }
+}
